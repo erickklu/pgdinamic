@@ -9,11 +9,11 @@ app.set('layout', 'layouts/layout');
 
 // Rutas
 app.get('/', (req, res) => {
-    res.render('index', { title: 'Página principal', content: 'Contenido de la página principal'});
+    res.render('index', { title: 'Pagina principal', content: 'Contenido de la página principal'});
 });
 
 app.get('/about', (req, res) => {
-    res.render('about', { title: 'Acerca de', content: 'Contenido de la página Acerca de' });
+    res.render('about', { title: 'Acerca de..', content: 'Contenido de la página Acerca de' });
 });
 
 // Inicia el servidor
